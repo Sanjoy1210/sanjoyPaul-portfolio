@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import myImg from '../../../images/banner/my-img.jpg';
 import './Banner.css';
+import Resume from '../../../Document/SanjoyPaul_Web_Developer.pdf';
 
 const Banner = () => {
   return (
@@ -22,10 +23,10 @@ const Banner = () => {
                   </ul>
                 </div>
                 <div className="banner-details">
-                  <p>Handle difficulties and errors in a smart way. I'm a tech lover. Try to keep myself updated with new technologies and learn that. I'm very passionate and dedicated about my work.I am seeking to work in a company where I can work as a team member and put my knowledge into practice. I enjoy every step of the developing process from discussion and collaboration.</p>
+                  <p>Handle difficulties and errors in a smart way. I'm a tech lover. Try to keep myself updated with new technologies and learn that. I am seeking to work in a company where I can work as a team member and put my knowledge into practice. I enjoy every step of the developing process from discussion and collaboration.</p>
                 </div>
                 <div className="resume">
-                  <Button className="download-resume">Download Resume</Button>
+                  <Button className="download-resume" href={Resume}>Download Resume</Button>
                 </div>
               </div>
             </Col>

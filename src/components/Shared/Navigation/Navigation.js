@@ -1,18 +1,20 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import './Navigation.css';
 
 const Navigation = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Sanjoy Paul</Navbar.Brand>
+        <Navbar.Brand as={HashLink} to="/home#home">SanjoyPaul</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact Me</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#projects">Projects</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#contact">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
