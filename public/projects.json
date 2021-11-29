@@ -2,7 +2,7 @@
   {
     "id": "01",
     "title": "SuperBike",
-    "description": "A MERN stack niche bicycle website.",
+    "description": "A MERN stack niche bicycle website.Implement Firebase authentication specially Email/Password and Google Sign in method.Here, this app's main focus is to implement user dashboard and admin dashboard.",
     "technologies": [
       "ReactJS",
       "ExpressJS",
@@ -21,7 +21,7 @@
   {
     "id": "02",
     "title": "GoTravel",
-    "description": "A MERN stack niche bicycle website.",
+    "description": "A MERN stack travel agency website.Responsive MERN Stack app and Implement Admin Management Page. Implement Authentication System with Firebase.Face a challenge to improve the Admin Management page and at last solve this after 1days of practice.",
     "technologies": [
       "ReactJS",
       "ExpressJS",
@@ -40,7 +40,7 @@
   {
     "id": "03",
     "title": "Life Care Clinic",
-    "description": "A MERN stack niche bicycle website.",
+    "description": "A simple react life care clinic website.Here, Implement two authentication symtem, Google Sign in and Email-Password system.Implement Context API, React Hooks, custom hooks.Here, use React Route v5 and implement Private Route.",
     "technologies": [
       "ReactJS",
       "Bootstrap",
