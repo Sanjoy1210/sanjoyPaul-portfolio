@@ -1,0 +1,44 @@
+/* .footer-area {
+  background: rgba(0, 0, 0, 0) url(../../../images/footer/footer_bg.jpg) repeat scroll center center / cover!important;
+  color: #fff;
+}
+
+footer {
+  position: relative!important;
+  z-index: 1;
+} */
+
+.footer-area-wrapper {
+  padding: 100px 0;
+}
+
+.personal-content .personal-content-logo h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.personal-content .personal-content-details p {
+  font-size: 16px;
+}
+
+.personal-links .social-links span {
+  font-size: 16px;
+  height: 35px;
+  width: 35px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.personal-links .social-links .linkedin,
+.personal-links .social-links .github,
+.personal-links .social-links .facebook {
+  background-color: rgba(255,255,255,0.2)!important;
+  border-radius: 50px;
+}
+
+.newsletter-title h5,
+.useful-links-title h5 {
+  font-size: 16px!important;
+}
