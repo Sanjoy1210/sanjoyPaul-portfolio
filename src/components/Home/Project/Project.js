@@ -5,7 +5,7 @@ import './Project.css';
 const Project = ({ project }) => {
   const { title, description, technologies, github, liveSite, img } = project;
   return (
-    <Row>
+    <Row className="single-project">
       <Col md={7} className="content">
         <div className="project-img">
           <img src={img} alt="" />
@@ -20,9 +20,21 @@ const Project = ({ project }) => {
             <p>{description}</p>
           </div>
           <div className="technology-used">
-            {
-              technologies.map((technology, index) => <span key={index}>{technology}</span>)
-            }
+            <h4>Technology used</h4>
+            <div className="technology-list">
+              {
+                technologies.map((technology, index) => <span key={index}>{technology}</span>)
+              }
+            </div>
+          </div>
+          <div className="projects-links">
+            <ul className="preview">
+              <li><a href={liveSite} target="_blank"><i className="fas fa-external-link-alt"></i></a></li>
+              <li><a href={github[0]} target="_blank"><i className="fab fa-github"></i></a></li>
+              {
+                github[1] && <li><a href={github[1]} target="_blank"><i className="fab fa-github"></i></a></li>
+              }
+            </ul>
           </div>
         </div>
       </Col>

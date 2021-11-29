@@ -1,14 +1,15 @@
 import React from 'react';
-import { Col, Container, FormControl, InputGroup, Row, Button } from 'react-bootstrap';
+import { Col, Container, FormControl, InputGroup, Row, Button, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
     <footer className="footer-area">
       <div className="footer-area-wrapper">
         <Container>
-          <Row xs={1} md={2} lg={3}>
+          <Row xs={1} md={2} lg={3} className="mb-5">
             <Col>
               <div className="personal-content">
                 <div className="personal-content-logo">
@@ -34,14 +35,14 @@ const Footer = () => {
                 <div className="links">
                   <Row xs={2}>
                     <Col>
-                      <Link to="">Home</Link>
-                      <Link to="">About</Link>
-                      <Link to="">Projects</Link>
+                      <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
+                      <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
+                      <Nav.Link as={HashLink} to="/home#projects">Projects</Nav.Link>
                     </Col>
                     <Col>
-                      <Link to="">Contact me</Link>
-                      <Link to="">Resume</Link>
-                      <Link to="">Blogs</Link>
+                      <Nav.Link as={HashLink} to="/home#contact">Contact me</Nav.Link>
+                      <Nav.Link as={HashLink} to="/home#resume">Resume</Nav.Link>
+                      <Nav.Link as={HashLink} to="/home#blog">Blogs</Nav.Link>
                     </Col>
                   </Row>
                 </div>
@@ -67,6 +68,9 @@ const Footer = () => {
               </div>
             </Col>
           </Row>
+
+          <hr />
+          <p className="copyright">&copy; 2019 All Rights Reserved By SanjoyPaul</p>
         </Container>
       </div>
     </footer>

@@ -36,3 +36,42 @@
   -o-transition: all 11s; */
   transition: all 3s;
 }
+
+.project-title h4 {
+	font-size: 20px;
+}
+
+.single-project {
+	margin-bottom: 20px;
+}
+
+.project-details {
+	/* background-color: rgb(23, 42, 69); */
+	/* border: 1px solid lightgray; */
+	/* margin-left: -60px; */
+	z-index: 1;
+	padding: 10px;
+}
+
+.preview {
+	display: flex;
+}
+
+.preview li {
+	display: inline;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.project-description p {
+	font-size: 16px;
+}
+
+.technology-used h4 {
+	font-size: 16px;
+}
+
+.projects-links,
+.technology-used {
+	margin-top: 18px;
+}

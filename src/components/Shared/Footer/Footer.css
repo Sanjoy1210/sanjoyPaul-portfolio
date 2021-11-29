@@ -9,7 +9,7 @@ footer {
 } */
 
 .footer-area-wrapper {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .personal-content .personal-content-logo h2 {
@@ -40,5 +40,20 @@ footer {
 
 .newsletter-title h5,
 .useful-links-title h5 {
-  font-size: 16px!important;
+  font-size: 21px!important;
+  margin-bottom: 12px;
+}
+
+.newsletter .form-control {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.newsletter .btn-outline-secondary {
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 16px;
+  text-align: center;
 }
