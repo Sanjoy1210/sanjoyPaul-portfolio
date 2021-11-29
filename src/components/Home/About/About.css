@@ -1,0 +1,67 @@
+.about-area {
+  padding: 80px 0;
+}
+
+.section-title h4 {
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-area-img {
+  text-align: center;
+}
+
+.about-area-img img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about-me-details p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.my-skills-set,
+.work-set {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-skills-set span,
+.work-set span {
+  /* background: #4b5769; */
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 16px;
+  height: 26px;
+}
+
+.work-title,
+.skills-title,
+.projects-experience-title {
+  margin-bottom: 16px;
+}
+
+.work-title h4,
+.skills-title h4,
+.projects-experience-title h4 {
+  font-size: 22px;
+}
+
+.work-with,
+.projects-experience {
+  margin-top: 50px;
+}
+
+.projects-experience-details h5 {
+  font-size: 18px;
+}
+
+.projects-experience-details p {
+  font-size: 16px;
+  text-align: justify;
+}
