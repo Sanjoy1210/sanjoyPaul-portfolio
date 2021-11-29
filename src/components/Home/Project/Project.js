@@ -6,12 +6,12 @@ const Project = ({ project }) => {
   const { title, description, technologies, github, liveSite, img } = project;
   return (
     <Row className="single-project">
-      <Col md={7} className="content">
+      <Col xs={12} md={7} className="content">
         <div className="project-img">
           <img src={img} alt="" />
         </div>
       </Col>
-      <Col md={5}>
+      <Col xs={12} md={5}>
         <div className="project-details">
           <div className="project-title">
             <h4>{title}</h4>

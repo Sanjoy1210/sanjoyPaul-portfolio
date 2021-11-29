@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="banner-area-wrapper">
         <Container>
           <Row xs={1} lg={2}>
-            <Col className="order-sm-2 order-lg-1">
+            <Col className="banner">
               <div className="banner-content">
                 <div className="banner-content-title">
                   <h5 className="sub-title">Hello there, I am</h5>
@@ -30,7 +30,7 @@ const Banner = () => {
                 </div>
               </div>
             </Col>
-            <Col className="order-sm-1">
+            <Col className="banner-content-img">
               <div className="banner-img">
                 <img src={myImg} alt="" />
               </div>
