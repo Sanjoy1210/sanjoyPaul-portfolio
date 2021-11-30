@@ -41,6 +41,7 @@
 
 .preview {
 	display: flex;
+	margin-bottom: 0!important;
 }
 
 .preview li {
@@ -50,7 +51,7 @@
 }
 
 .project-description p {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .technology-used h4 {
@@ -62,19 +63,14 @@
 	margin-top: 18px;
 }
 
-@media only screen and (max-width: 668px) {
-	.project-img img {
-		/* bottom: -1px; */
-		width: 100%;
-		height: auto;
-		position: absolute;
-		z-index: 0;
-		margin:0;
-		padding:0;
-		transition: bottom 3s;
-	}
-	.project-img:hover img {
-		/* bottom: 0; */
-		transition: all 3s;
-	}
+.projects-links {
+	display: flex;
+	align-items: center;
+}
+
+.detail-btn {
+	background-color: transparent!important;
+	border-color: #ffc576!important;
+	font-size: 16px!important;
+	display: inline!important;
 }

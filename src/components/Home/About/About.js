@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import aboutImg from '../../../images/about/myImg.jpg';
+import aboutImg from '../../../images/about/myImg.png';
 import './About.css';
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
             <Col md={5} className="offset-md-1">
               <div className="skills-area">
                 <div className="skills-title">
-                  <h4>My Skills Set</h4>
+                  <h4>My Skills</h4>
                 </div>
                 <div className="my-skills-set">
                   {
@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <div className="work-with">
                 <div className="work-title">
-                  <h4>I want to work with</h4>
+                  <h4>I prefer to work with</h4>
                 </div>
                 <div className="work-set">
                   {

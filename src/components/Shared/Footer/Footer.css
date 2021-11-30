@@ -34,7 +34,9 @@ footer {
 .personal-links .social-links .linkedin,
 .personal-links .social-links .github,
 .personal-links .social-links .facebook {
-  background-color: rgba(255,255,255,0.2)!important;
+  /* background-color: rgba(255,255,255,0.2)!important; */
+  border: 1px solid #ffc576;
+  margin-right: 10px;
   border-radius: 50px;
 }
 
@@ -56,4 +58,23 @@ footer {
 .copyright {
   font-size: 16px;
   text-align: center;
+}
+
+.nav-link {
+  color: rgba(255,255,255,.55)!important;
+}
+
+.nav-link:hover {
+  color: #ffc576!important;
+}
+
+.subscribe-btn {
+  background-color: transparent!important;
+  border-color: #ffc576!important;
+  font-size: 16px!important;
+}
+
+.subscribe-btn:hover {
+  background-color: #ffc576!important;
+  color: #0a192f!important;
 }

@@ -27,17 +27,17 @@ const Contact = () => {
           </div>
           <form ref={form} onSubmit={sendEmail}>
             <div className="row mx-auto">
-              <div className="col-8 form-group mx-auto">
+              <div className="col-lg-8 form-group mx-auto">
                 <input type="text" className="form-control" placeholder="Name" name="name" />
               </div>
-              <div className="col-8 form-group pt-2 mx-auto">
+              <div className="col-lg-8 form-group pt-2 mx-auto">
                 <input type="email" className="form-control" placeholder="Email Address" name="email" />
               </div>
-              <div className="col-8 form-group pt-2 mx-auto">
+              <div className="col-lg-8 form-group pt-2 mx-auto">
                 <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
               </div>
-              <div className="col-8 pt-3 mx-auto">
-                <input type="submit" className="btn btn-primary" value="Send Message"></input>
+              <div className="col-8 pt-3 text-center mx-auto">
+                <input type="submit" className="btn send-btn" value="Send Message"></input>
               </div>
             </div>
           </form>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import myImg from '../../../images/banner/my-img.jpg';
+import myImg from '../../../images/banner/my-img.png';
 import './Banner.css';
 import Resume from '../../../Document/SanjoyPaul_Web_Developer.pdf';
 

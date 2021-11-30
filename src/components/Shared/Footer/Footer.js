@@ -20,9 +20,9 @@ const Footer = () => {
                 </div>
                 <div className="personal-links">
                   <div className="social-links">
-                    <span className="linkedin"><i className="fab fa-linkedin"></i></span>
-                    <span className="github"><i className="fab fa-github"></i></span>
-                    <span className="facebook"><i className="fab fa-facebook-f"></i></span>
+                    <a href="https://www.linkedin.com/in/sanjoypaul12/" target="_blank"><span className="linkedin"><i className="fab fa-linkedin"></i></span></a>
+                    <a href="https://github.com/Sanjoy1210" target="_blank"><span className="github"><i className="fab fa-github"></i></span></a>
+                    <a href="https://web.facebook.com/12sanjoypaul/" target="_blank"><span className="facebook"><i className="fab fa-facebook-f"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                       aria-label="Enter Email Address"
                       aria-describedby="basic-addon2"
                     />
-                    <Button variant="outline-secondary" id="button-addon2">
+                    <Button className="subscribe-btn" id="button-addon2">
                       Subscribe
                     </Button>
                   </InputGroup>
