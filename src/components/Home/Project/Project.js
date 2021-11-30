@@ -1,9 +1,14 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+// import { useHistory } from 'react-router';
 import './Project.css';
 
 const Project = ({ project }) => {
-  const { title, description, technologies, github, liveSite, img } = project;
+  const { title, description, technologies, github, liveSite, img, id } = project;
+  // const history = useHistory();
+
+
   return (
     <Row className="single-project">
       <Col xs={12} md={7} className="content">
@@ -35,6 +40,8 @@ const Project = ({ project }) => {
                 github[1] && <li><a href={github[1]} target="_blank"><i className="fab fa-github"></i></a></li>
               }
             </ul>
+            <Link to={`/project/${id}`}>Detail</Link>
+            {/* <Button className="detail-btn" onClick={history.push(`/project/${id}`)}>Detail</Button> */}
           </div>
         </div>
       </Col>

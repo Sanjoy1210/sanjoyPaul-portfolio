@@ -5,7 +5,7 @@ import './Navigation.css';
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg" sticky="top">
+    <Navbar expand="lg" sticky="top" className="navbar-dark">
       <Container>
         <Navbar.Brand as={HashLink} to="/home#home">SanjoyPaul</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -3,30 +3,24 @@
 }
 
 .project-img {
-  display: block;
-	/* width: 100%; */
-	height: 250px;
-	overflow: hidden;
+	width: 100%;
+	height: 300px;
 	position: relative;
-	border: 2px solid #b3b3b3;
-	border-radius: 1px;
-	margin: 0 auto;
+	overflow: hidden;
+	padding: 5px;
+	cursor: pointer;
 }
 
 .project-img img {
-  bottom: -663px;
 	width: 100%;
-	height: auto;
 	position: absolute;
-	z-index: 0;
-  margin:0;
-  padding:0;
-	transition: bottom 3s;
+	left: 0;
+	top: 0;
+	transition: transform 3s ease-in-out;
 }
 
 .project-img:hover img {
-  bottom: 0;
-  transition: all 3s;
+	transform: translateY(-85%);
 }
 
 .project-title h4 {

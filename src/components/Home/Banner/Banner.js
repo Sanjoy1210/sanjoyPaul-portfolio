@@ -25,7 +25,7 @@ const Banner = () => {
                 <div className="banner-details">
                   <p>Handle difficulties and errors in a smart way. I'm a tech lover. Try to keep myself updated with new technologies and learn that. I am seeking to work in a company where I can work as a team member and put my knowledge into practice. I enjoy every step of the developing process from discussion and collaboration.</p>
                 </div>
-                <div className="resume">
+                <div className="resume pt-5">
                   <Button className="download-resume" href={Resume}>Download Resume</Button>
                 </div>
               </div>
