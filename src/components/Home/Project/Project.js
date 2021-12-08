@@ -33,10 +33,10 @@ const Project = ({ project }) => {
           </div>
           <div className="projects-links">
             <ul className="preview">
-              <li><a href={liveSite} target="_blank"><i className="fas fa-external-link-alt"></i></a></li>
-              <li><a href={github[0]} target="_blank"><i className="fab fa-github"></i></a></li>
+              <li><a href={liveSite} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></li>
+              <li><a href={github[0]} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
               {
-                github[1] && <li><a href={github[1]} target="_blank"><i className="fab fa-github"></i></a></li>
+                github[1] && <li><a href={github[1]} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
               }
             </ul>
             <Button className="detail-btn" onClick={() => navigate(`/project/${id}`)}>Detail</Button>

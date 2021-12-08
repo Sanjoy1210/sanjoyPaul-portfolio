@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, FormControl, InputGroup, Row, Button, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 import { HashLink } from 'react-router-hash-link';
 
@@ -20,9 +19,9 @@ const Footer = () => {
                 </div>
                 <div className="personal-links">
                   <div className="social-links">
-                    <a href="https://www.linkedin.com/in/sanjoypaul12/" target="_blank"><span className="linkedin"><i className="fab fa-linkedin"></i></span></a>
-                    <a href="https://github.com/Sanjoy1210" target="_blank"><span className="github"><i className="fab fa-github"></i></span></a>
-                    <a href="https://web.facebook.com/12sanjoypaul/" target="_blank"><span className="facebook"><i className="fab fa-facebook-f"></i></span></a>
+                    <a href="https://www.linkedin.com/in/sanjoypaul12/" target="_blank" rel="noreferrer"><span className="linkedin"><i className="fab fa-linkedin"></i></span></a>
+                    <a href="https://github.com/Sanjoy1210" target="_blank" rel="noreferrer"><span className="github"><i className="fab fa-github"></i></span></a>
+                    <a href="https://web.facebook.com/12sanjoypaul/" target="_blank" rel="noreferrer"><span className="facebook"><i className="fab fa-facebook-f"></i></span></a>
                   </div>
                 </div>
               </div>

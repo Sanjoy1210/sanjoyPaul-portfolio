@@ -76,10 +76,10 @@ const ProjectDetail = () => {
                 </div>
                 <div className="projects-links">
                   <ul className="preview">
-                    <li><a href={projectDetail?.liveSite} target="_blank"><i className="fas fa-external-link-alt"></i></a></li>
-                    <li><a href={projectDetail?.github?.[0]} target="_blank"><i className="fab fa-github"></i></a></li>
+                    <li><a href={projectDetail?.liveSite} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt"></i></a></li>
+                    <li><a href={projectDetail?.github?.[0]} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
                     {
-                      projectDetail?.github?.[1] && <li><a href={projectDetail?.github?.[1]} target="_blank"><i className="fab fa-github"></i></a></li>
+                      projectDetail?.github?.[1] && <li><a href={projectDetail?.github?.[1]} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
                     }
                   </ul>
                 </div>
